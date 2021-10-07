@@ -1,3 +1,3 @@
 # **Replication Materials**
-## Travis is learning how to disseminate open source code
-### SUB-SUBTITLE: Chocolate milk is _seriously_ delicious
+In this repository, you can find all my code for the following publications. 
+Not everything is here because I have yet to figure this github stuff out. 
