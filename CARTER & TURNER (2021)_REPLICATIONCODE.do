@@ -9,11 +9,8 @@
 * TO FOLDERS W/JURSIDCITIONAL DATASET *
 *=====================================* 
 
-	global MASTER "C:\Users\travi\OneDrive - Michigan State University\COVID-19 Grant Project\Data"
-	global Lansing "C:\Users\travi\OneDrive - Michigan State University\COVID-19 Grant Project\Data\Lansing"
-	global Detroit "C:\Users\travi\OneDrive - Michigan State University\COVID-19 Grant Project\Data\Detroit"
-	global Kalamazoo "C:\Users\travi\OneDrive - Michigan State University\COVID-19 Grant Project\Data\Kalamazoo"
-	global GrandRapids "C:\Users\travi\OneDrive - Michigan State University\COVID-19 Grant Project\Data\Grand Rapids"
+* HIDDEN SO YOU CANNOT KNOW MY WORKING DIRECTORY PATHS *
+* GLOBALS INCLUDE "Detroit" "Lansing" "Kalamazoo" "GrandRapids" "MASTER"
 
 *===============================================================================*	
 	
@@ -652,7 +649,6 @@
 			}
 			
 	* STEP 4) RUN PAR(q) MODELS WITH A LINEAR TREND TERM AND THE LOCKDOWN ORDER
-	cd  "C:\Users\travi\OneDrive - Michigan State University\COVID-19 Grant Project\Data\Do Files\PPR1"
 	eststo clear
 	* RESIDENTIAL
 		* DETROIT
@@ -693,7 +689,7 @@
 			nonumbers mtitles("DETROIT" "GRAND RAPIDS" "KALAMAZOO" "LANSING") ///
 			title("RESDIENTIAL BURGLARY LOCKDOWN REMOVAL") replace
 
-	cd  "C:\Users\travi\OneDrive - Michigan State University\COVID-19 Grant Project\Data\Do Files\PPR1"
+	
 	eststo clear
 
 	* COMMERCIAL
