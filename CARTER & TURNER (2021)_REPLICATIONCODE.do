@@ -1,11 +1,11 @@
 *====================================* 
-* CARTER & TURNER (2021)		     *
+* CARTER & TURNER (2021)	     *
 * EXAMINING THE IMMEDIATE EFFECTS... *
-* LAST UPDATED: 04/09/2021			 *	
+* LAST UPDATED: 04/09/2021           *	
 *====================================* 
 
 *=====================================* 
-* SET MACROS FOR EZ NAV 			  *
+* SET MACROS FOR EZ NAV		      *
 * TO FOLDERS W/JURSIDCITIONAL DATASET *
 *=====================================* 
 
@@ -18,7 +18,7 @@
 *===============================================================================*	
 	
 *===============================*
-**# PREPARE EACH DATASET		*
+**# PREPARE EACH DATASET	*
 * FOR MERGE INTO MASTER DATASET *
 *===============================*
 
@@ -186,7 +186,7 @@
 *===============================================================================*	
 	
 *=====================*
-**# DATA CLEANING &	  *
+**# DATA CLEANING &   *
 * VARAIBLE GENERATION *
 *=====================*
 	{
